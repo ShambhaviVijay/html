@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                body {
+
+                        font-size: 150px;
+                }
+
+                .cont {
+                        font-size: 450PX;
+                        padding: 30px;
+                        text-align: center;
+                        border: 30ch;
+                        margin: 80px;
+                        color: rgb(188, 243, 232);
+                        background-color: rgb(13, 67, 67);
+                }
+
+
+                .container {
+
+                        font-size: 200PX;
+                        text-align: center;
+                        padding: 30px;
+                        border: 40ch;
+                        margin: 70px;
+                        color: rgb(217, 239, 235);
+                        background-color: rgb(60, 123, 123);
+                }
+
+                .des {
+
+                        font-size: 100PX;
+                        padding: 30px;
+                        border: 0ch;
+                        margin: 50px;
+                        color: rgb(219, 226, 231);
+                        background-color: rgb(99, 95, 160);
+                }
+
+                * {
+                        box-sizing: border-box;
+                }
+
+                .left {
+                        display: inline-block;
+                        left: 100px;
+                        font-size: 60px;
+                        color: rgb(104, 36, 168);
+                        font-family: serif;
+                        position: absolute;
+                        top: 20px;
+
+                }
+
+                .left img {
+
+                        width: 250px;
+                }
+
+                .left div {
+                        text-align: center;
+                }
+
+
+
+                .mid {
+
+                        display: block;
+                        margin: 50px auto;
+                        width: 30%;
+                        top: 50px;
+                        padding-block-end: 30px;
+
+                }
+
+                .navbar {
+
+                        top: 60px;
+                        background-color: rgb(174, 228, 168);
+
+                }
+
+                .navbar ul {
+                        overflow: auto;
+                }
+
+                .navbar li {
+                        display: inline-block;
+                        padding: 30px;
+                }
+
+
+                .navbar li a {
+                        text-decoration: none;
+                        color: rgb(10, 46, 9);
+                        font-size: 50px;
+                        padding: 10px 10px;
+                        margin: 20px;
+                        left: 20px;
+
+
+
+                }
+
+                .navbar li a:hover {
+                        /*when cursor comes here*/
+                        text-decoration: underline;
+                        color: rgb(140, 204, 183);
+                }
+
+                .right {
+                        display: inline-block;
+
+                        right: 20px;
+                        position: absolute;
+                        top: 30px;
+                }
+
+                .btn {
+                        padding: 40px 40px;
+                        background-color: lavender;
+                        border: 0ch;
+                        margin: 20px;
+                        color: blueviolet;
+                        font-size: 20px;
+                        cursor: pointer;
+                        /* cursor will get converted into pointer when hovered over buttons*/
+
+                }
+
+                .btn:hover {
+                        background-color: rgb(215, 179, 231);
+                }
+
+                .con1 {
+                        height: 1540px;
+                        width: 1000px;
+                        border: 200px rgb(163, 51, 51);
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        /*flex-flow:row-reverse wrap; (to set direction and wrap together)*/
+                        justify-content: space-between;
+                        align-items: center;
+                }
+
+                .child {
+                        height: 6000px;
+
+                        width: 1050px;
+                        background-color: rgb(210, 188, 231);
+                        margin: 200px;
+                        padding: 25px;
+
+                }
+
+                #box1 {
+                        order: 3;
+                        /* flex-shrink: 30;*/
+                }
+
+                .child a {
+                        text-decoration: none;
+                        font-size: 100px;
+                        padding: 300px;
+
+
+                }
+
+                #box2 {
+                        /* flex-shrink: 29;*/
+                }
+
+                #box3 {
+                        align-self: flex-end;
+                }
+
+                #box4 {
+
+                        align-self: center;
+                }
+        </style>
+</head>
+
+
+<body>
+
+
+        <div class="left">
+                <img src="logo.jpg" alt="">
+                <div>WISTERIA</div>
+        </div>
+        <div class="mid">
+                <ul class="navbar">
+                        <li><a href="https://www.livechart.me/spring-2022/tv">HOME</a></li>
+                        <li><a href="https://reelrundown.com/animation/Top-Ten-Greatest-Anime-of-all-time#:~:text=1%20The%20Melancholy%20of%20Haruhi%20Suzumiya.%20This%20is,...%209%20Vandread.%20...%2010%20Elfen%20Lied.%20">
+                                        TOP 10</a></li>
+                        <li><a href="https://gogoanime.is/">COLLECTION</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                </ul>
+        </div>
+
+
+        <div class="right">
+                <button class="btn"> FEEDBACK</button>
+                <button class="btn">SUGGESTIONS</button>
+        </div>
+
+
+
+        <p class="align">
+        <p class="cont">TOP 3 ANIME OF THE WEEK!</p>
+        <p class="container">AOT
+        <DIV class="des">After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the
+                earth of the giant humanoid Titans
+                that have brought humanity to the brink of extinction.</DIV>
+        </p>
+        <p class="container">SPY X FAMILY
+        <div class="des">A spy on an undercover mission gets married and adopts a child as part of his cover. His wife
+                and daughter have secrets of their own, and
+                all three must strive to keep together.</div>
+        </p>
+        <p class="container">JUJUTSU KAISEN
+        <div class="des">A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He
+                enters a shaman's school to be able to locate
+                the demon's other body parts and thus exorcise himself.</div>
+        </p>
+        </p>
+        <div class="con1">
+                <div class="child" id="box1"><img src="logo.jpg"><a href="https://soundcloud.com/">OST</a></div>
+                <div class="child" id="box2"><img src="logo.jpg"><a
+                                href="https://in.pinterest.com/search/pins/?q=cool%20anime%20posters&rs=typed&term_meta[]=cool%7Ctyped&term_meta[]=anime%7Ctyped&term_meta[]=posters%7Ctyped">POSTER</a>
+                </div>
+                <div class="child" id="box3"><img src="logo.jpg"><a
+                                href="https://discordservers.com/search/Weeb%20chat">CHAT</a></div>
+                <div class="child" id="box4"><img src="logo.jpg"><a
+                                href="https://www.proprofs.com/quiz-school/topic/anime">FUNTIME</a></div>
+        </div>
+
+</body>
+
+</html>

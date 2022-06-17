@@ -1,0 +1,11 @@
+#navbar {
+        display: flex;
+}
+
+#navbar ul li {
+        display: flex;
+}
+
+#navbar ul li a {
+        list-style: none;
+}

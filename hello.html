@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Document</title>
+        <style>
+                nav {
+                        background-color: rgb(20, 19, 19);
+                        display: flex;
+                        position: sticky;
+                        opacity: 0.5;
+
+
+                }
+
+
+
+                .box1 {
+
+                        width: 100%;
+                        height: 1000px;
+                        padding: 40px;
+                }
+
+
+                .text {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 4rem;
+                        height: 200px;
+
+                }
+
+
+
+                .pic {
+                        margin: auto;
+                        /*to align center*/
+                        display: block;
+                        /*and this*/
+                        width: 450px;
+                        height: 450px;
+
+                }
+
+                .pic1 {
+                        margin: auto;
+                        /*to align center*/
+                        display: block;
+                        /*and this*/
+                        padding: 150px 150px;
+                        height: 500px;
+                        width: 500px;
+
+                }
+
+
+                .bol {
+
+                        display: flex;
+                        justify-content: center;
+                        padding: 10px;
+                        align-items: center;
+
+
+                }
+
+
+
+                header::before {
+                        background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+                        content: " ";
+                        /*imp for limg display*/
+                        position: absolute;
+                        /* imp for display*/
+                        width: 100%;
+
+                        height: 2000px;
+                        z-index: -1;
+                        /*to mix the bg with fg*/
+                        opacity: 0.4;
+                }
+
+
+                li {
+                        list-style-type: none;
+                        display: inline-block;
+                        margin: 20px 40px;
+                        padding: 5px 5px;
+
+                }
+
+                li a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: white;
+                        font-size: 65px;
+                        padding: 3px 3px;
+
+                }
+
+                li a:hover {
+
+                        background-color: rgb(163, 39, 39);
+                        color: white;
+                }
+
+                .lor {
+                        height: 1500px;
+                        font-size: 75px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        color: rgb(51, 46, 46);
+
+
+
+                }
+
+
+
+                .head {
+
+                        height: 100px;
+                        font-size: 150px;
+                        display: flex;
+                        justify-content: center;
+                        color: rgb(63, 56, 56);
+
+
+
+                }
+
+                p {
+
+                        border: 5px solid rgb(90, 28, 28);
+                        margin: 35px;
+                        height: 1150px;
+                        width: 1650px;
+                        padding: 50px;
+                        text-align: center;
+                        background-color: rgb(251, 248, 233);
+                        display: inline-block;
+                        border-radius: 35px;
+                        font-size: 60px;
+
+
+                }
+
+                p img {
+                        padding: 50px;
+                }
+        </style>
+</head>
+
+<body></body>
+<header>
+        <nav>
+
+                <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">HELP</a></li>
+
+                </ul>
+        </nav>
+</header>
+<section>
+        <h2 class="head">HAPPY FOODS</h2>
+        <H3 class="lor">Currently offers in depth data of 1.4 million restaurants from over 22 countries on its website
+                and the
+                mobile app.<br>
+                Features restaurant information like scanned menu, photos, ratings and reviews on its website and app.
+        </H3>
+
+</section>
+<section id="services">
+        <h3 class="text">OUR SERVICES</h3>
+
+        <div class="bol">
+                <div>
+                        <p>
+                                <img src="f.jpg" class="pic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum
+                                veritatis eaque odi
+                                t, sapiente nesciunt nostrum repudiandae necessitatibus
+                                voluptate qui voluptas neque aliquam in, totam alias vel beatae et?
+                        </p>
+
+
+                </div>
+                <div id="pp">
+                        <p><img src="ff.jpg" class="pic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum
+                                veritatis eaque odi
+                                t, sapiente nesciunt nostrum repudiandae necessitatibus
+                                voluptate qui voluptas neque aliquam in, totam alias vel beatae et?
+
+
+                        </p>
+                </div>
+                <div id="pp">
+                        <p><img src="fff.jpg" class="pic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum
+                                veritatis eaque odi
+                                t, sapiente nesciunt nostrum repudiandae necessitatibus
+                                voluptate qui voluptas neque aliquam in, totam alias vel beatae et?
+
+
+                        </p>
+                </div>
+        </div>
+</section>
+<section>
+        <h4 class="text">CONNECT WITH US ON !</h4>
+        <div class="bol">
+
+                <div class="box1">
+
+                        <img src="qq2.jpg" class="pic1">
+
+                </div>
+                <div class="box1">
+
+                        <img src="qq4.jpg" class="pic1">
+
+                </div>
+                <div class="box1">
+
+                        <img src="qq1.jpg" class="pic1">
+
+                </div>
+                <div class="box1">
+
+                        <img src="qq6.png" class="pic1">
+
+                </div>
+                <div class="box1">
+
+                        <img src="qq5.jpg" class="pic1">
+
+                </div>
+        </div>
+</section>
+</body>
+
+</html>
